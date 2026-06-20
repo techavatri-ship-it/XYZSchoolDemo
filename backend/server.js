@@ -14,7 +14,6 @@ const app = express();
 // Middleware
 const allowedOrigins = [
   "https://xyz-school-demo.vercel.app",
-  "http://localhost:5173",
   // Add your actual Vercel URL below after deployment
   process.env.FRONTEND_URL,
 ].filter(Boolean);
